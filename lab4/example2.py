@@ -4,8 +4,3 @@ if (year % 4) > 0 :
   print('Your year is not leap year it is century year')
 elif (year % 4) == 0 :
   print('Your year is a leap year')
-nums = [8, 60, 43, 55, 25, 134, 1]
-total = 0
-for x in range[0 , len(nums)] :
-  total = total + nums[x] 
-  print(total)

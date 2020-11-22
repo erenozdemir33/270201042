@@ -1,4 +1,4 @@
-#Write a Python program that asks the user for two integers a and b and calculates ab without using ** operator and pow function.
+#Write a Python program that asks the user for two integers a and b and calculates a**b without using ** operator and pow function.
 a = int(input('Enter your a integer'))
 b = int(input('Enter your b integer'))
 result = 1

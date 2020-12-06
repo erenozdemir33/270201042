@@ -1,5 +1,8 @@
-#Write an algorithm and draw a flowchart to calculate 2 üzeri 4.
-i = 1
-while i < 17 :
-  print(i)
-  i = i * 2
+n = str(input("Enter your input"))
+lower_n = n.lower()
+count = 0
+vowels = ["a" , "e" , "ı", "i" ,"o" , "ö", "u","ü"]
+for x in lower_n :
+  if x in vowels :
+    count = count + 1
+print(count)

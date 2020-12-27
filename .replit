@@ -1,1 +1,1 @@
-run = "python training/tra3.py"
+run = "python lab9/exp4.py"

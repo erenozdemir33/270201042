@@ -9,12 +9,18 @@ def rec_func(n):
 
 rec_func(6)
 
-
-def reverse_rec_func(n) :
+count = 1
+def reverse_rec_func(n,count) :
   if n == 0 :
-    return 
+    return
   else :
-    n = n + 1
-    return reverse_rec_func(n - 2)
+    count += 1
+    print(count)
+    return reverse_rec_func(n-1,count)
+  
+reverse_rec_func(5,count)
 
-print(reverse_rec_func(6))
+
+    
+
+
